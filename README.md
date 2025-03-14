@@ -5,11 +5,14 @@
 ## Overview
 This repository contains **numerical simulations** investigating the **Jaynes-Cummings Model (JCM)**, a fundamental framework in **Cavity Quantum Electrodynamics (QED)**. Our research explores **quantum coherence**, **Rabi oscillations**, and **Rabi splitting** under various coupling regimes, incorporating decoherence effects using the **Lindblad Master Equation**.
 
-The study aims to provide insights into:
-- How **dissipation** and **decoherence** affect quantum systems.
-- **Transition dynamics** from **ideal to non-ideal quantum behavior**.
-- The role of **strong and weak coupling regimes** in quantum optics.
-- **Custom-built functions for JC Hamiltonian**: We have developed **custom functions** that allow users to generate the **Jaynes-Cummings Hamiltonian** dynamically. These functions accept different arguments such as **decay rates, coupling strengths, and other parameters**, enabling easy adaptation of the model to various configurations.
+## Project Aims
+This project is designed to:
+- **Develop a modular framework** for simulating the Jaynes-Cummings Model under realistic conditions, allowing researchers to explore quantum interactions in an open system.
+- **Analyze the impact of decoherence and dissipation** on quantum coherence, examining how different parameters such as **cavity loss, atomic decay, and dephasing** affect system dynamics.
+- **Visualize fundamental quantum phenomena**, including **Vacuum Rabi Oscillations, Rabi Splitting, Wigner Functions, and Bloch Sphere dynamics**, to gain deeper insights into quantum behavior.
+- **Provide adaptable simulation tools** that enable users to define **custom Jaynes-Cummings Hamiltonians** with adjustable **coupling strengths, decay rates, and other parameters** for flexible experimentation.
+- **Facilitate research in quantum information science**, contributing to the understanding of **light-matter interactions** for applications in **quantum computing, quantum optics, and cavity QED systems**.
+
 
 ## Key Features
 - **Jaynes-Cummings Model**: Two-level system interacting with a quantized electromagnetic field.
