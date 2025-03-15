@@ -6,11 +6,10 @@
 This repository contains **numerical simulations** investigating the **Jaynes-Cummings Model (JCM)**, a fundamental framework in **Cavity Quantum Electrodynamics (QED)**. Our research explores **quantum coherence**, **Rabi oscillations**, and **Rabi splitting** under various coupling regimes, incorporating decoherence effects using the **Lindblad Master Equation**.
 
 ## Project Aims
-This project is designed to:
-- **Develop a modular framework** for simulating the Jaynes-Cummings Model under realistic conditions, allowing researchers to explore quantum interactions in an open system.
+This was a project I undertook at Cardiff University during my masters under supervison of **Dr Amy Morreau** and was structured to achieve the following aims:
+- **Provide adaptable simulation tools** that enable users to use **custom JCH function** with adjustable **coupling strengths, decay rates, and other parameters** for flexible experimentation.
 - **Analyze the impact of decoherence and dissipation** on quantum coherence, examining how different parameters such as **cavity loss, atomic decay, and dephasing** affect system dynamics.
 - **Visualize fundamental quantum phenomena**, including **Vacuum Rabi Oscillations, Rabi Splitting, Wigner Functions, and Bloch Sphere dynamics**, to gain deeper insights into quantum behavior.
-- **Provide adaptable simulation tools** that enable users to define **custom Jaynes-Cummings Hamiltonians** with adjustable **coupling strengths, decay rates, and other parameters** for flexible experimentation.
 - **Facilitate research in quantum information science**, contributing to the understanding of **light-matter interactions** for applications in **quantum computing, quantum optics, and cavity QED systems**.
 
 
@@ -19,7 +18,7 @@ This project is designed to:
 - **Lindblad Master Equation**: Models **cavity loss, atomic decay, and dephasing**.
 - **Qutip-based Simulations**: Uses the **QuTiP** package for quantum dynamics.
 - **Custom Hamiltonian Functions**: Predefined functions allow users to easily modify system parameters.
-- **Visualization**: Plots of **Vacuum Rabi Oscillations**, **Rabi Splitting**, **Bloch sphere evolution**, and **Wigner function representation**.
+- **Custom Visualization tools**: Plots of **Vacuum Rabi Oscillations**, **Rabi Splitting**, **Bloch sphere evolution**, and **Wigner function representation** can be rapidly created just by choosing the parameters and putting them in the plotting functions.
 
 ## Installation
 To run the simulations, ensure you have Python installed, then install the required dependencies:
