@@ -54,7 +54,8 @@ def bloch_dynamics_snapshots(g1, kappa=0, gamma=0, detuning=0, n=0, N=15, timest
         ]
 
     # Plot Bloch spheres at selected time steps
-    fig, axes = plt.subplots(1, len(snapshot_times), figsize=(18, 8), subplot_kw={'projection': '3d'})
+    fig, axes = plt.subplots(1, len(snapshot_times), figsize=(18, 6), subplot_kw={'projection': '3d'})
+    plt.suptitle(f'Bloch Sphere Evolution\nCoupling Strength (g1): {g1}, Cavity Decay (kappa): {kappa}, Atomic Decay (gamma): {gamma}, Detuning: {detuning}, Thermal Photon Number (n): {n}', fontsize=14)
 
     for i, t in enumerate(snapshot_times):
         idx = np.argmin(np.abs(t_list - t))  # Find closest time index
